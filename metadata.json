@@ -1,0 +1,6 @@
+{
+  "name": "StayMatch Executive Dashboard",
+  "description": "แดชบอร์ดผู้บริหาร StayMatch วิเคราะห์ที่พักและสถิติสัตว์เลี้ยง ครบ 77 จังหวัด พร้อมแกลเลอรีภาพห้องพักและโมเดลทำนาย",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

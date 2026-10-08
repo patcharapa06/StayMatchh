@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #a93f3f;
+  --color-primary-dark: #8c3232;
+  --color-secondary: #d2af91;
+  --color-secondary-light: #e8d7c6;
+  --color-secondary-dark: #b89270;
+  --color-warm-cream: #fbf7f4;
+  --color-warm-card: #ffffff;
+  --color-warm-text: #2b2320;
+  --color-warm-muted: #6b5c54;
+
+  /* Overwrite legacy pastel color variables with #a93f3f and #d2af91 flat palette */
+  --color-lilac: #d2af91;
+  --color-lilac-dark: #a93f3f;
+  --color-lilac-deep: #702626;
+  --color-pink: #d2af91;
+  --color-pink-dark: #a93f3f;
+  --color-periwinkle: #d2af91;
+  --color-periwinkle-dark: #a93f3f;
+  --color-cream: #fbf7f4;
+  --color-cream-soft: #ffffff;
+  --color-text-main: #2b2320;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+body {
+  background-color: #fbf7f4;
+  color: #2b2320;
+}
